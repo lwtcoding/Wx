@@ -21,17 +21,18 @@ public class Attachment {
 	private Product product;
 	private Topic topic;
 	/**
-	 * ¸Ã¸½¼şÊÇ·ñÖ÷Ò³Í¼Æ¬
+	 * è¯¥é™„ä»¶æ˜¯å¦ä¸»é¡µå›¾ç‰‡
 	 */
 	private Integer isIndexPic;
 	/**
-	 * ¸Ã¸½¼şÊÇ·ñ¸½¼şĞÅÏ¢£¬Èç¹ûÊÇÔòÔÚÎÄÕÂµÄ¸½¼şÀ¸ÏÔÊ¾
+	 * è¯¥é™„ä»¶æ˜¯å¦é™„ä»¶ä¿¡æ¯ï¼Œå¦‚æœæ˜¯åˆ™åœ¨æ–‡ç« çš„é™„ä»¶æ æ˜¾ç¤º
 	 */
 	private Integer isAttach;
 	
 	@Id
 	@GeneratedValue
 	public Long getId() {
+		//add from web
 		return id;
 	}
 	public void setId(Long id) {
